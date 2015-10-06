@@ -1461,7 +1461,7 @@ void process_commands()
           destination[X_AXIS] = 3 * Z_MAX_LENGTH;
           destination[Y_AXIS] = 3 * Z_MAX_LENGTH;
           destination[Z_AXIS] = 3 * Z_MAX_LENGTH;
-          feedrate = 1.732 * homing_feedrate[X_AXIS];
+          feedrate = 1.3 * homing_feedrate[X_AXIS];
           plan_buffer_line(destination[X_AXIS], destination[Y_AXIS], destination[Z_AXIS], destination[E_AXIS], feedrate/60, active_extruder);
           st_synchronize();
           endstops_hit_on_purpose();
