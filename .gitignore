@@ -1,3 +1,7 @@
+.build_ano
+lib/
+src
+
 // Our automatic versioning scheme generates the following file
 // NEVER put it in the repository
 _Version.h
